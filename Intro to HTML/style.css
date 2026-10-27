@@ -2,6 +2,7 @@
     background-color: #b47841;
 }
  */
+ /* all importations should be put ion the top of the css  file*/
 html, body, *{
     font-size: 10px; 
     box-sizing: border-box;
@@ -12,24 +13,56 @@ body{
     background-color: #0ce1f0; 
 }
 /* 1 rem is 10pixels*/
-div{
+.container{
+    margin: 5rem auto;
+    display:flex;
+    justify-content:space-around;
+    width: 88vw;
+}
+.card{ /*parent*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     width: 30rem;
     height: 55rem;
     background-color: #ff0000;
-    margin: 2.5rem 5rem 4rem 4rem;
-    padding: 5rem
-    /* margin is space between elements*/
-}
-.card{ /*parent*/
-    background-color: #fbff00;
-    color: #990ceb;
+    margin: 2.5rem 5rem 4rem 4rem;  /* margin is space between elements*/
+    padding: 5rem;
+    border-radius: 0.8rem;
 }
 /*goes into the specific div that you want to change by the class*/
 .card-title{ /*children*/
-    text-align: center;
-    
+    text-align: center;   
+    font-size: 1.8rem;
+    font-weight: 600; /*changes the stroke to be thicker or thinne*/
+    margin: 0; 
 }
-#test{
+.card-price{
+    font-size:1.2rem;
+    margin:0;
+}
+.card-img{
+    width: 100%;
+    height: 45%;
+    object-fit: cover;
+    border-radius: 0.4rem;
+}
+.card-btn{
+    height: 4rem;
+    padding: 0 1.6rem;
+    background-color: #ff0000;
+    border: 1px solid #0ce1f0;
+    font-size: 1.4rem;
+    cursor: pointer;
+    color: #f00cb7;
+    transition: all 0.3s;
+
+}
+.card-btn:hover{
+    background-color: #0cf063;
+}
+/* #test{
     background-color: #3cff00;
-}
+} */
 /* goes into the specific div that you want to change by the ID name, should only use an id name once */
