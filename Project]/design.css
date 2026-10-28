@@ -5,23 +5,11 @@ html, body, *{
     padding: 0;
 }
 body{
-    background-color: #accbe1; 
-}
-.card{
-    width: 80rem;
-    height: 50rem;
-    background-color: #cee5f2;
-    margin: 8rem 8rem 8rem 8rem;
-    padding: 5rem;
-    font-size: 20px;
-    font-style: italic;
-}
-.card-title{
-    font-size: 20px;
+    background-color: #fbda4b; 
 }
 /* 
-cee5f2
-accbe1
-7C98B3
-637081
-536B78 */
+brown #502503
+light brown #773d03
+mid yellow #dea10e
+yellow #fbda4b
+lig yellow #fae36f*/
