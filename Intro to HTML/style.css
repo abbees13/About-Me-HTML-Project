@@ -20,7 +20,7 @@ body{
     text-align: center;
     height: 100vh; /*viewport heigh = height og the APP*/
     color: #42e90b;
-    background-image: linear-gradient(rgba(8,84,130,0.8)),url("img/yoga\ pants.avif");
+    background-image: linear-gradient(rgba(8,84,130,0.8)),url("img/yoga pants.avif");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
