@@ -24,6 +24,11 @@ body{
     background-position: center;
     background-attachment: fixed;
 }
+.intro-content{
+    width: 85rem;
+    padding: 4rem;
+    
+}
 /* 
 brown #502503
 light brown #773d03
