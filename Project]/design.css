@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Coral+Pixels&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Yuyu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yuyu&family=Yuyu+Short&display=swap');
 
 html, body, *{
     font-size: 10px; 
@@ -27,7 +29,55 @@ body{
 .intro-content{
     width: 85rem;
     padding: 4rem;
-    
+}
+.intro h1{
+    font-size:  10rem;
+    margin-bottom: 2rem;
+    text-shadow: 0 2px 6px rgb(119, 61, 3 ,0.5)
+}
+.intro p{
+    font-size: 4rem;
+    margin-bottom: 3rem;
+    text-shadow: 0 2px 6px rgb(119, 61, 3, 0.5)
+}
+.container{
+    margin: 5rem auto;
+    display: flex;
+    justify-content: space-around;
+    width: 88vw;
+}
+.card-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 90%;
+    height: 55rem;
+    background-color: #502503;
+    margin: 4rem auto;
+    padding: 5rem;
+    border-radius: 1rem;
+}
+.card-title{
+    font-family: "Yuyu Short", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    text-align: center;
+    font-size: 10rem;
+    margin: 10rem 15rem 15rem 15rem;
+}
+.card-img{
+    width: 30rem;
+    height: 30rem;
+    align-items: left;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+.card p{
+    font-family: "Yuyu", sans-serif; 
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5rem;
+    margin-bottom: 3rem;
 }
 /* 
 brown #502503
