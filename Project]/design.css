@@ -21,7 +21,7 @@ body{
     text-align: center;
     height: 100vh;
     color: #502503;
-    background-image: linear-gradient(rgba(255, 217, 0, 0.438)), url("images/duckbucket.gif");
+    background-image: linear-gradient(rgba(255, 217, 0, 0.438)), url("images/dreamy.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -43,42 +43,104 @@ body{
 .container{
     margin: 5rem auto;
     display: flex;
-    justify-content: space-around;
-    width: 88vw;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 80vw;
+}
+.float{
+    width: 90%;
+    height: 50%;
+    align-items: left;
+    border-radius: 0.5rem;
+    padding: 2rem;
 }
 .card-top{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
     width: 90%;
     height: 55rem;
     background-color: #502503;
-    margin: 4rem auto;
+    margin: 3rem auto;
     padding: 5rem;
     border-radius: 1rem;
 }
-.card-title{
-    font-family: "Yuyu Short", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-    text-align: center;
-    font-size: 10rem;
-    margin: 10rem 15rem 15rem 15rem;
-}
 .card-img{
-    width: 30rem;
-    height: 30rem;
+    width: 45%;
+    height: 90%;
     align-items: left;
-    object-fit: cover;
     border-radius: 0.5rem;
+    padding: 2rem;
 }
-.card p{
+.card-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+.card-title h2{
+    font-family: "Yuyu Short", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    justify-content: center;
+    font-size: 10rem;
+    padding: 1rem;
+    color: #fbda4b;
+}
+.card-title p{
     font-family: "Yuyu", sans-serif; 
     font-weight: 400;
     font-style: normal;
-    font-size: 5rem;
-    margin-bottom: 3rem;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+    color: #fbda4b;
 }
+.link-btn{
+    display: inline-block;
+    height: 6rem;
+    padding: 0 3rem;
+    border-radius: 5rem;
+    color: #502503;
+    background-color: #fbda4b;
+    border: 1px solid #773d03;
+    font-size: 4rem;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.link-btn:hover{
+    background-color: #fae36f;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+    height: 55rem;
+    background-color: #502503;
+    margin: 3rem auto;
+    padding: 5rem;
+    border-radius: 1rem;
+    font-size: 10rem;
+}
+.list p{
+    font-family: "Yuyu Short", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    justify-content: center;
+    font-size: 7rem;
+    margin-bottom: 3rem;
+    color: #fbda4b;
+}
+.list li{
+    font-family: "Yuyu", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    color: #fbda4b;
+}
+
 /* 
 brown #502503
 light brown #773d03
